@@ -4,7 +4,7 @@ import profilePicture from "../images/profile-picture.jpg";
 
 function Home() {
   return (
-    <div className="home">
+    <div className="home container">
       <div className="greeting">
         <h2>Welcome to my portfolio!</h2>
         <NavLink to="/project">

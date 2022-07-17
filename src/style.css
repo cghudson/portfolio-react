@@ -19,7 +19,6 @@ body {
 .home {
   display: flex;
   flex-flow: row wrap;
-  /* align-items: center; */
 }
 
 .greeting {
@@ -68,6 +67,158 @@ li:hover {
 }
 /* end navigation style */
 
+/* about style */
+.about {
+  text-align: center;
+}
+.about-info {
+  text-align: center;
+}
+/* end about style */
+
+/* project style */
+.work {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  max-width: 1200px;
+  padding-left: 3.2%;
+}
+
+.work a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.title {
+  text-align: center;
+}
+
+.project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background: var(--dark-color);
+  margin: 1%;
+  width: 46%;
+  height: 12em;
+  border: 4px solid var(--secondary-color);
+  border-radius: 10px;
+  position: relative;
+  /* background-color:#425738; */
+  background-image: linear-gradient(
+    to bottom right,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+}
+
+.banner {
+  position: absolute;
+  bottom: 18px;
+  left: 0;
+  background: white;
+  color: black;
+  font-weight: bold;
+  padding: 6px;
+  border-radius: 0px 15px 15px 0px;
+  max-width: 75%;
+  max-height: 55%;
+}
+
+.project-title {
+  /* font-size: 2.0vw; */
+  font-size: 30px;
+}
+
+.project-info {
+  /* font-size: 1.0vw; */
+  font-size: 15px;
+}
+
+.project:hover {
+  border-color: var(--primary-color);
+}
+
+.banner:hover {
+  background: var(--dark-color);
+  color: white;
+}
+
+#meditation-buddy:hover {
+  background-image: url(./images/meditation-buddy.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#book-bits:hover {
+  background-image: url(./images/book-bits.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#password-generator:hover {
+  background-image: url(./images/password-generator.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#weather-dashboard:hover {
+  background-image: url(./images/weather-dashboard.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#work-day-scheduler:hover {
+  background-image: url(./images/work-day-scheduler.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#code-quiz:hover {
+  background-image: url(./images/code-quiz.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#tech-blog:hover {
+  background-image: url(./images/tech-blog.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#e-commerce:hover {
+  background-image: url(./images/e-commerce.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#employee-tracker:hover {
+  background-image: url(./images/employee-tracker.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#note-taker:hover {
+  background-image: url(./images/note-taker.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+#team-profile-generator:hover {
+  background-image: url(./images/team-profile-generator.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#readme-generator:hover {
+  background-image: url(./images/readme-generator.jpg);
+  background-size: cover;
+  background-position: center;
+}
+/* end project style */
+
 /* footer style */
 footer {
   background-image: url(./images/leaf-banner.jpg);
@@ -85,3 +236,87 @@ a:hover {
   color: var(--dark-color);
 }
 /* end footer style */
+
+/* media queries */
+@media (max-width: 1024px) {
+  .project-title {
+    font-size: 2vw;
+  }
+
+  .project-info {
+    font-size: 1.5vw;
+  }
+}
+
+@media (max-width: 767px) {
+  .project-title {
+    font-size: 2.5vw;
+  }
+
+  .project-info {
+    font-size: 1.9vw;
+  }
+
+  /* .banner {
+        width: 70%;
+      } */
+
+  /* header {
+      display: flex;
+      flex-direction: column;
+    } */
+
+  /* #about {
+      text-align: right;
+    } */
+
+  /* .about {
+      display: inline-block;
+    } */
+
+  /* .profile-image {
+      float: left;
+    }
+   */
+  /* .work {
+      display: inline-block;
+    } */
+
+  /* .project {
+      display: flex;
+      max-width: 90%;
+      display: inline-block;
+    }
+   */
+  /* .contact {
+      display: flex;
+      flex-direction: column;
+    } */
+}
+
+@media (max-width: 575px) {
+  .project-title {
+    font-size: 3vw;
+  }
+
+  .project-info {
+    font-size: 2.2vw;
+  }
+
+  /* .banner {
+        width: 70%;
+      } */
+
+  /* .about {
+      display: inline-block;
+    } */
+
+  /* .profile-image {
+      float: left;
+    } */
+
+  /* .project {
+      max-width: 90%;
+    } */
+}
+/* end media queries */

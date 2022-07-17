@@ -65,9 +65,13 @@ button {
   justify-content: space-around;
 }
 
-ul li {
+/* ul li {
   background:  #f4f6f4;
   border-radius: 15px;
+} */
+
+.active {
+    font-weight: bolder;
 }
 
 li:hover {
@@ -254,6 +258,10 @@ label {
 .contact-btn {
   margin: 4%;
   width: 50%;
+}
+
+.contact-btn:hover {
+    color: var(--dark-color);
 }
 /* end contact style */
 

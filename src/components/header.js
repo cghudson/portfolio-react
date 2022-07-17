@@ -6,7 +6,7 @@ function Header() {
     <div className="card header fixed-top">
       <div className="card-header">
         <div className="text-center">
-          <h1 className="name">Carolyn Hudson</h1>
+          <h1 className="name">CAROLYN HUDSON</h1>
         </div>
         <Navigation />
       </div>

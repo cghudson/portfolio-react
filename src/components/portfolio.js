@@ -12,8 +12,9 @@ function Portfolio() {
           target="_blank"
           className="project"
           id="meditation-buddy"
+          rel="noreferrer"
         >
-          <div className="banner container">
+          <div className="banner">
             <h3 className="project-title">Meditation Buddy</h3>
             <h6 className="project-info">JavaScript, HTML, Bulma/CSS</h6>
           </div>
@@ -23,6 +24,7 @@ function Portfolio() {
           target="_blank"
           className="project"
           id="book-bits"
+          rel="noreferrer"
         >
           <div className="banner">
             <h3 className="project-title">Book Bits</h3>
@@ -36,6 +38,7 @@ function Portfolio() {
           target="_blank"
           className="project"
           id="password-generator"
+          rel="noreferrer"
         >
           <div className="banner">
             <h3 className="project-title">Password Generator</h3>
@@ -47,6 +50,7 @@ function Portfolio() {
           target="_blank"
           className="project"
           id="weather-dashboard"
+          rel="noreferrer"
         >
           <div className="banner">
             <h3 className="project-title">Weather Dashboard</h3>
@@ -58,6 +62,7 @@ function Portfolio() {
           target="_blank"
           className="project"
           id="work-day-scheduler"
+          rel="noreferrer"
         >
           <div className="banner">
             <h3 className="project-title">Work Day Scheduler</h3>
@@ -69,6 +74,7 @@ function Portfolio() {
           target="_blank"
           className="project"
           id="code-quiz"
+          rel="noreferrer"
         >
           <div className="banner">
             <h3 className="project-title">Code Quiz</h3>
@@ -80,6 +86,7 @@ function Portfolio() {
           target="_blank"
           className="project"
           id="tech-blog"
+          rel="noreferrer"
         >
           <div className="banner">
             <h3 className="project-title">Tech Blog</h3>
@@ -93,6 +100,7 @@ function Portfolio() {
           target="_blank"
           className="project"
           id="e-commerce"
+          rel="noreferrer"
         >
           <div className="banner">
             <h3 className="project-title">E-Commerce</h3>
@@ -104,6 +112,7 @@ function Portfolio() {
           target="_blank"
           className="project"
           id="employee-tracker"
+          rel="noreferrer"
         >
           <div className="banner">
             <h3 className="project-title">Employee Tracker</h3>
@@ -115,6 +124,7 @@ function Portfolio() {
           target="_blank"
           className="project"
           id="note-taker"
+          rel="noreferrer"
         >
           <div className="banner">
             <h3 className="project-title">Note Taker</h3>
@@ -128,6 +138,7 @@ function Portfolio() {
           target="_blank"
           className="project"
           id="team-profile-generator"
+          rel="noreferrer"
         >
           <div className="banner">
             <h3 className="project-title">Team Profile Generator</h3>
@@ -141,6 +152,7 @@ function Portfolio() {
           target="_blank"
           className="project"
           id="readme-generator"
+          rel="noreferrer"
         >
           <div className="banner">
             <h3 className="project-title">README Generator</h3>

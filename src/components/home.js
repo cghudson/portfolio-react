@@ -1,18 +1,21 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import profilePicture from "../images/profile-picture.jpg";
 
 function Home() {
   return (
-    <div className="home container">
-      <div className="greeting">
-        <h2>Welcome to my portfolio!</h2>
-        <NavLink to="/project">
-          <button>View my Projects</button>
-        </NavLink>
-      </div>
-      <div className="profile p-3">
-        <img src={profilePicture} alt="Carolyn and her dog" />
+    <div className="container about-page">
+      <div className="about">
+        <h2 className="title">ABOUT ME</h2>
+        <div className="about-info">
+          <p>
+            Hello, my name is Carolyn! I am currently a Certified Veterinary
+            Nurse, but I am learning to code throught the University of
+            Wisconsin Extended Campus. Stay tuned for updates!
+          </p>
+        </div>
+        <div className="profile p-3">
+          <img src={profilePicture} alt="Carolyn and her dog" />
+        </div>
       </div>
     </div>
   );

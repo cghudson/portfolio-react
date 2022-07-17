@@ -3,9 +3,9 @@ import profilePicture from "../images/profile-picture.jpg";
 
 function About() {
   return (
-    <div className='container'>
+    <div className="container about-page">
       <div className="about">
-        <h2>ABOUT ME</h2>
+        <h2 className="title">ABOUT ME</h2>
         <div className="about-info">
           <p>
             Hello, my name is Carolyn! I am currently a Certified Veterinary
@@ -14,7 +14,7 @@ function About() {
           </p>
         </div>
         <div className="profile p-3">
-          <img src={profilePicture} alt="Carolyn Hudson with her dog, Oliver" />
+          <img src={profilePicture} alt="Carolyn and her dog" />
         </div>
       </div>
     </div>

@@ -11,7 +11,7 @@ function Home() {
           <button>View my Projects</button>
         </NavLink>
       </div>
-      <div className="profile">
+      <div className="profile p-3">
         <img src={profilePicture} alt="Carolyn and her dog" />
       </div>
     </div>

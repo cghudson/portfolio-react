@@ -3,11 +3,13 @@ import Navigation from "./navigation";
 
 function Header() {
   return (
-    <div>
-      <div>
-        <h1>Carolyn Hudson</h1>
+    <div className="card header fixed-top">
+      <div className="card-header">
+        <div className="text-center">
+          <h1 className="name">Carolyn Hudson</h1>
+        </div>
+        <Navigation />
       </div>
-      <Navigation />
     </div>
   );
 }

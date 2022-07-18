@@ -43,7 +43,7 @@ function Contact() {
   return (
     <section className="container card contact-me">
       <h1 className="title p-2">
-        Contact me:
+        CONTACT ME:
       </h1>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div className="form-group">

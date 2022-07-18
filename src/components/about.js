@@ -1,11 +1,11 @@
 import React from "react";
 import profilePicture from "../images/profile-picture.jpg";
 
-function Home() {
+function About() {
   return (
     <div className="container about-page">
       <div className="about">
-        <h2 className="title">ABOUT ME</h2>
+        <h2 className="title">ABOUT ME:</h2>
         <div className="about-info">
           <p>
             Hello, my name is Carolyn! I am currently a Certified Veterinary
@@ -21,4 +21,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default About;

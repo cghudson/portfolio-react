@@ -11,7 +11,7 @@ function Footer() {
             </a>
           </li>
           <li className="m-2">
-            <a href="https://github.com/cghudson" target="_blank">
+            <a href="https://github.com/cghudson" target="_blank" rel="noreferrer">
               <i className="fa-brands fa-github-square fa-2x p-2 nav-item"></i>
             </a>
           </li>
@@ -19,12 +19,13 @@ function Footer() {
             <a
               href="https://www.linkedin.com/in/carolyn-grace-hudson/"
               target="blank"
+              rel="noreferrer"
             >
               <i className="fa-brands fa-linkedin fa-2x p-2 nav-item"></i>
             </a>
           </li>
           <li className="m-2">
-            <a href="https://stackoverflow.com/users/17782192/carolyn-hudson" target="_blank">
+            <a href="https://stackoverflow.com/users/17782192/carolyn-hudson" target="_blank" rel="noreferrer">
               <i className="fa-brands fa-stack-overflow fa-2x p-2 nav-item"></i>
             </a>
           </li>

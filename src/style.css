@@ -16,37 +16,25 @@ body {
   padding-bottom: 110px;
 }
 
-/* home page style */
-.home {
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.greeting {
-  font-size: 1em;
+.title {
   text-align: center;
-  padding: 1rem;
-}
-
-.profile img {
-  width: 14em;
-  border-radius: 50%;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.614);
 }
 
 button {
-  font-size: 1em;
-  border-radius: 0.5em;
-  padding: 0.5em;
-  margin: 1%;
-  color: white;
-  background-color: var(--primary-color);
-  border: none;
-  outline: none;
-  cursor: pointer;
-}
-/* end home page style */
+    font-size: 1em;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    margin: 1%;
+    color: white;
+    background-color: var(--primary-color);
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
 
-/* header style */
+/* header and navigation style */
 .header {
   background-color: var(--secondary-color);
 }
@@ -58,24 +46,27 @@ button {
   justify-content: center;
   position: relative;
 }
-/* end header style */
 
-/* navigation style */
 .nav {
   display: flex;
   justify-content: space-around;
 }
 
 .active {
-    font-weight: bolder;
+  font-weight: bolder;
 }
 
 li:hover {
   font-weight: bold;
 }
-/* end navigation style */
+/* end header and navigation style */
 
 /* about style */
+.profile img {
+    width: 14em;
+    border-radius: 50%;
+  }
+
 .about-page {
   margin-top: 5%;
 }
@@ -110,16 +101,11 @@ li:hover {
 }
 
 .icon {
-    color: black; 
+  color: black;
 }
 
 .icon:hover {
-    color:white;
-}
-
-.title {
-  text-align: center;
-  font-weight: bold;
+  color: white;
 }
 
 .project {
@@ -265,25 +251,25 @@ label {
 }
 
 .contact-btn:hover {
-    color: var(--dark-color);
+  color: var(--dark-color);
 }
 /* end contact style */
 
 /* resume style */
 .resume-page {
-    display: flex;
-    text-align: center;
-    width: 60%;
-    padding: 2%;
+  display: flex;
+  text-align: center;
+  width: 60%;
+  padding: 2%;
 }
 
 .resume-text {
-    background-color: rgba(128, 128, 128, 0.084);
+  background-color: rgba(128, 128, 128, 0.084);
 }
 
 .resume-btn a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 /* end resume style */
 

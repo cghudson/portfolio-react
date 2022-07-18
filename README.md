@@ -2,8 +2,7 @@
 
 ## Description
 
-- Challenge Assignment for University of Wisconsin Extended Campus Coding Bootcamp
-- This application allows users to track deposits and expenses without an internet connection. Once an internet connection is re-established, the offline transactions will be added and the current balance will be updated.
+- This React Portfolio features projects completed during the University of Wisconsin Extended Campus Coding Bootcamp in order to showcase my work to potential employers and collaborators
 
 ## Table of Contents
 

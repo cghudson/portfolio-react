@@ -1,33 +1,38 @@
 import React from "react";
-import { BrowserRouter as Router, NavLink } from "react-router-dom";
+import Sparkle from "react-sparkle";
 
 function Navigation(props) {
-    const {
-        aboutSelected,
-        portfolioSelected,
-        resumeSelected,
-        contactSelected,
-      } = props;
-
+  const { pages, currentPage, setCurrentPage } = props;
+  
   return (
-    <Router>
-      <div>
-        <ul className="nav">
-          <NavLink onClick={() => aboutSelected(true)} to="/home" className="text-decoration-none text-dark">
-            <li className="nav-item p-2 m-1">ABOUT</li>
-          </NavLink>
-          <NavLink onClick={() => portfolioSelected(true)} to="/portfolio" className="text-decoration-none text-dark">
-            <li className="nav-item p-2 m-1">PORTFOLIO</li>
-          </NavLink>
-          <NavLink onClick={() => resumeSelected(true)} to="/resume" className="text-decoration-none text-dark">
-            <li className="nav-item p-2 m-1">RESUME</li>
-          </NavLink>
-          <NavLink onClick={() => contactSelected(true)} to="/contact" className="text-decoration-none text-dark">
-            <li className="nav-item p-2 m-1">CONTACT</li>
-          </NavLink>
-        </ul>
+    <header className="card header fixed-top">
+      <div className="card-header">
+        <div className="text-center">
+          <h1 className="name">CAROLYN HUDSON</h1>
+          <Sparkle minSize={8} maxSize={15} flickerSpeed="slower" />
+        </div>
+
+        <nav>
+          <ul className="d-flex flex-row nav">
+            {pages.map((page) => {
+              return (
+                <li className="text-decoration-none p-2 m-1" key={page.name}>
+                  <span
+                    className={currentPage.name === page.name ? `text-dark text-uppercase` : `text-muted`} 
+                    href={page.link}
+                    onClick={() => {
+                      setCurrentPage(page);
+                    }}
+                  >
+                    {page.name}
+                  </span>
+                </li>
+              );
+            })}
+          </ul>
+        </nav>
       </div>
-    </Router>
+    </header>
   );
 }
 

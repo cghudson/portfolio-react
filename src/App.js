@@ -27,6 +27,7 @@ function App() {
   ];
 
   const [currentPage, setCurrentPage] = useState(pages[0]);
+  
 
   return (
     <>

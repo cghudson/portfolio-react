@@ -157,6 +157,12 @@ li:hover {
   color: white;
 }
 
+#wrapped-in-bananas:hover {
+  background-image: url(./images/wrapped-in-bananas.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 #meditation-buddy:hover {
   background-image: url(./images/meditation-buddy.jpg);
   background-size: cover;

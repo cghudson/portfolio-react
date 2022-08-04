@@ -5,14 +5,14 @@ function Portfolio(props) {
   const { setCurrentProject } = props;
 
   const projects = [
-    // {
-    //   name: "Wrapped in Bananas",
-    //   identifier: "wrapped-in-bananas",
-    //   tools: "",
-    //   color: require(""),
-    //   github: "https://github.com/cthomas265/wrapped-in-bananas",
-    //   deploy: "",
-    // },
+    {
+      name: "Wrapped in Bananas",
+      identifier: "wrapped-in-bananas",
+      tools: "MERN Stack, HTML, CSS, Mantine",
+      color: require("../images/wrapped-in-bananas.jpg"),
+      github: "https://github.com/cthomas265/wrapped-in-bananas",
+      deploy: "",
+    },
     {
       name: "Meditation Buddy",
       identifier: "meditation-buddy",

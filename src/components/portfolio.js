@@ -11,7 +11,7 @@ function Portfolio(props) {
       tools: "MERN Stack, HTML, CSS, Mantine",
       color: require("../images/wrapped-in-bananas.jpg"),
       github: "https://github.com/cthomas265/wrapped-in-bananas",
-      deploy: "",
+      deploy: "https://wrapped-in-bananas.herokuapp.com/",
     },
     {
       name: "Meditation Buddy",

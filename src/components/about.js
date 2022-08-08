@@ -8,9 +8,20 @@ function About() {
         <h2 className="title">ABOUT ME:</h2>
         <div className="about-info">
           <p>
-            Hello, my name is Carolyn! I am currently a Certified Veterinary
-            Nurse, but I am learning to code throught the University of
-            Wisconsin Extended Campus. Stay tuned for updates!
+            I am a Full Stack Web Developer with a background in zoology and
+            veterinary care. I recently earned a Certificate in Full Stack Web
+            Development from the University of Wisconsin Extended Campus where I
+            developed skills in JavaScript, HTML, CSS, React, and creating
+            interactive applications with responsive design.
+            <br />
+            <br />
+            While I am not developing, I enjoy spending time with my dog,
+            Oliver, going for long walks, playing piano, and listening to
+            audiobooks or podcasts.
+            <br />
+            <br />I am excited to leverage my skills in the future as part of a
+            fast-paced, quality driven team. Please feel free to reach out to
+            chat about our next project on my Contact page!
           </p>
         </div>
         <div className="profile p-3">

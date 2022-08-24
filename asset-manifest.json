@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.71ed9469.css",
-    "main.js": "/portfolio-react/static/js/main.f0ffbdd5.js",
+    "main.js": "/portfolio-react/static/js/main.b4cefba9.js",
     "static/js/787.aeca62f9.chunk.js": "/portfolio-react/static/js/787.aeca62f9.chunk.js",
     "static/media/profile-picture.jpg": "/portfolio-react/static/media/profile-picture.8e3b1446e2e354fe53c7.jpg",
     "static/media/code-quiz.jpg": "/portfolio-react/static/media/code-quiz.91444af9a70ef8213014.jpg",
     "static/media/wrapped-in-bananas.jpg": "/portfolio-react/static/media/wrapped-in-bananas.9a954718fd0edb391db1.jpg",
     "static/media/book-bits.jpg": "/portfolio-react/static/media/book-bits.fc2b88f136e8db31bda0.jpg",
-    "static/media/HudsonCarolynResume.pdf": "/portfolio-react/static/media/HudsonCarolynResume.c7b84bf1f4695e8450b3.pdf",
+    "static/media/HudsonCarolynResume.pdf": "/portfolio-react/static/media/HudsonCarolynResume.4e0a33c028832f086e91.pdf",
     "static/media/note-taker.jpeg": "/portfolio-react/static/media/note-taker.b5ef75d9c487050c5bdd.jpeg",
     "static/media/weather-dashboard.jpg": "/portfolio-react/static/media/weather-dashboard.247f6013a4eafb541606.jpg",
     "static/media/e-commerce.jpg": "/portfolio-react/static/media/e-commerce.5a6cbfe78425c9de8675.jpg",
@@ -21,11 +21,11 @@
     "static/media/password-generator.png": "/portfolio-react/static/media/password-generator.696bf01297a1a7121f62.png",
     "index.html": "/portfolio-react/index.html",
     "main.71ed9469.css.map": "/portfolio-react/static/css/main.71ed9469.css.map",
-    "main.f0ffbdd5.js.map": "/portfolio-react/static/js/main.f0ffbdd5.js.map",
+    "main.b4cefba9.js.map": "/portfolio-react/static/js/main.b4cefba9.js.map",
     "787.aeca62f9.chunk.js.map": "/portfolio-react/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.71ed9469.css",
-    "static/js/main.f0ffbdd5.js"
+    "static/js/main.b4cefba9.js"
   ]
 }

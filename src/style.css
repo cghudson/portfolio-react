@@ -1,7 +1,7 @@
 :root {
   --primary-color: #84938a;
   --secondary-color: #d8dfd8;
-  --dark-color: #767c7c;
+  --hover-color: #767c7c;
   --sparkle: #ffd700;
 }
 
@@ -32,6 +32,14 @@ button {
     border: none;
     outline: none;
     cursor: pointer;
+  }
+
+  .switch {
+    display: flex;
+    width: 50vw;
+    height: 60px;
+    margin-left: 20px;
+    align-items: center;
   }
 
 /* header and navigation style */
@@ -113,7 +121,7 @@ li:hover {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background: var(--dark-color);
+  background: var(--hover-color);
   margin: 1%;
   width: 46%;
   height: 12em;
@@ -153,7 +161,7 @@ li:hover {
 }
 
 .banner:hover {
-  background: var(--dark-color);
+  background: var(--hover-color);
   color: white;
 }
 
@@ -257,7 +265,7 @@ label {
 }
 
 .contact-btn:hover {
-  color: var(--dark-color);
+  color: var(--hover-color);
 }
 /* end contact style */
 
@@ -293,7 +301,7 @@ a {
 }
 
 a:hover {
-  color: var(--dark-color);
+  color: var(--hover-color);
 }
 /* end footer style */
 
@@ -309,6 +317,13 @@ a:hover {
 
   .contact-me {
     width: 85%;
+  }
+
+  .switch {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
   }
 }
 

@@ -5,7 +5,7 @@ function Navigation(props) {
   const { pages, currentPage, setCurrentPage } = props;
   
   return (
-    <header className="card header fixed-top">
+    <header className="card header">
       <div className="card-header">
         <div className="text-center">
           <h1 className="name">CAROLYN HUDSON</h1>
@@ -18,7 +18,7 @@ function Navigation(props) {
               return (
                 <li className="text-decoration-none p-2 m-1" key={page.name}>
                   <span
-                    className={currentPage.name === page.name ? `text-dark text-uppercase` : `text-muted`} 
+                    className={currentPage.name === page.name ? `text-light text-uppercase` : `text-muted`} 
                     href={page.link}
                     onClick={() => {
                       setCurrentPage(page);

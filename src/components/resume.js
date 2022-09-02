@@ -6,7 +6,7 @@ function Resume() {
     <div className="container resume-page">
       <div className="card p-4 resume-text w-100">
         <h5>I am proficient in the following technologies:</h5>
-        <p className="card p-4">
+        <p className="card p-4 inner-card">
           <b>Front-End:</b> HTML, CSS, JavaScript, AJAX, jQuery, React, Handlebars, Bootstrap
           <br />
           <br />

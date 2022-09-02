@@ -3,6 +3,9 @@
   --secondary-color: #d8dfd8;
   --hover-color: #767c7c;
   --sparkle: #ffd700;
+  --dark-background: #101910;
+  --dark-secondary: #1e201d;
+  --dark-form: rgb(59, 59, 59);
 }
 
 * {
@@ -12,8 +15,14 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  padding-top: 160px;
-  padding-bottom: 110px;
+  /* height: 100%; */
+  /* padding-top: 130px; */
+  /* padding-bottom: 110px; */
+}
+
+#dark main {
+  background-color: black;
+  height: 100vh;
 }
 
 .title {
@@ -22,29 +31,41 @@ body {
   color: rgba(0, 0, 0, 0.614);
 }
 
-button {
-    font-size: 1em;
-    border-radius: 0.5em;
-    padding: 0.5em;
-    margin: 1%;
-    color: white;
-    background-color: var(--primary-color);
-    border: none;
-    outline: none;
-    cursor: pointer;
-  }
+#dark .title {
+  color: var(--secondary-color);
+}
 
-  .switch {
-    display: flex;
-    width: 50vw;
-    height: 60px;
-    margin-left: 20px;
-    align-items: center;
-  }
+button {
+  font-size: 1em;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  margin: 1%;
+  color: white;
+  background-color: var(--primary-color);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.switch {
+  display: flex;
+  width: 50vw;
+  height: 60px;
+  margin-left: 20px;
+  align-items: center;
+}
+
+#dark .switch {
+  color: var(--secondary-color);
+}
 
 /* header and navigation style */
 .header {
   background-color: var(--secondary-color);
+}
+
+#dark .header {
+  background-color: var(--dark-secondary);
 }
 
 .name {
@@ -53,6 +74,10 @@ button {
   display: flex;
   justify-content: center;
   position: relative;
+}
+
+#dark .name {
+  color: white;
 }
 
 .nav {
@@ -64,6 +89,10 @@ button {
   font-weight: bolder;
 }
 
+#dark .active {
+  color: var(--hover-color);
+}
+
 li:hover {
   font-weight: bold;
 }
@@ -71,9 +100,9 @@ li:hover {
 
 /* about style */
 .profile img {
-    width: 14em;
-    border-radius: 50%;
-  }
+  width: 14em;
+  border-radius: 50%;
+}
 
 .about-page {
   margin-top: 5%;
@@ -86,6 +115,10 @@ li:hover {
 .about-info {
   text-align: center;
   padding: 0 10% 0 10%;
+}
+
+#dark .about-info {
+  color: white;
 }
 /* end about style */
 
@@ -255,6 +288,15 @@ li:hover {
   background-color: rgba(128, 128, 128, 0.084);
 }
 
+#dark .contact-me {
+  background-color: var(--dark-form);
+  color: white;
+}
+
+#dark .inner-card {
+  background-color: black;
+}
+
 label {
   padding: 2%;
 }
@@ -281,9 +323,18 @@ label {
   background-color: rgba(128, 128, 128, 0.084);
 }
 
+#dark .resume-text {
+  color: white;
+  background-color: var(--dark-form)
+}
+
 .resume-btn a {
   text-decoration: none;
   color: white;
+}
+
+#dark .resume-btn a:hover {
+  color: black;
 }
 /* end resume style */
 
@@ -292,12 +343,20 @@ footer {
   background-image: url(./images/leaf-banner.jpg);
 }
 
+#dark footer {
+  background-image: url(./images/dark-banner.jpg)
+}
+
 li {
   list-style: none;
 }
 
 a {
   color: black;
+}
+
+#dark a {
+  color: white;
 }
 
 a:hover {
